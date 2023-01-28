@@ -1,0 +1,146 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://cdn.agrarszektor.hu/cimlap/V/vadludak-repulnek-huznak690-20201019.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.working-area {
+  width: 654px;
+  max-width: calc(100vw - 30px);
+  max-height: calc(100vw - 30px);
+  background-color: rgba(104, 97, 77, 0.5);
+  border-radius: 12px;
+  border: 2px solid rgba(54, 124, 210, 0.8);
+}
+
+img {
+  width: 180px;
+  height: 210px;
+  border-radius: 12px;
+  padding: 2px;
+  background-color: rgba(54, 124, 210, 0.8);
+  transition: all .8s ease-in-out;
+  filter: opacity(70%);
+  margin: 55px 68px auto 68px;
+}
+
+img:hover {
+  filter: brightness(80%);
+  transform: scale(1.4);
+}
+
+#first-column {
+  max-width: 320px;
+}
+
+#second-column {
+  max-width: 320px;
+  margin: auto 10px auto auto;
+} 
+  
+.left {
+  float: left;
+  }
+
+.right {
+  float: right;
+}
+
+.profile-info {
+  margin: 80px 13px 25px 13px;
+  text-align: center;
+  font-size: 110%;
+  transition: all .8s ease-in-out;
+  background: rgba(217, 223, 228, .3);
+  border-radius: 12px;
+  border: 2px solid rgba(54, 124, 210, 0.8);
+}
+
+.profile-info:hover {
+  transform: scale(1.1);
+}
+
+.about {
+  background:rgba(245, 249, 249, 0.9);
+  text-align: justify;
+  padding: 15px;
+  margin: 15px auto auto auto;
+  border-radius: 12px;
+  border: 2px solid rgba(54, 124, 210, 0.8);
+}
+
+h1 {
+  font-size: larger;
+}
+
+.histo {
+  color:rgb(100, 32, 20);
+  font-size: 110%;
+}
+
+.from {
+  font-size: 75%;
+}
+
+.hungary {
+  font-size: 85%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 75%;
+}
+
+li {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color:rgb(77, 42, 4)
+}
+
+.a-links {
+  font-size: 95%;
+  line-height: 1.3em;
+}
+
+.links {
+  margin: 5px auto 5px auto;
+}
+
+a:hover {
+  color:rgba(245, 249, 249, 0.9)
+}
+
+a:active {
+  font-size: 150%;
+}
+
+.sources {
+  font-size: 50%;
+  margin-bottom: -5px;
+  color:rgba(2, 78, 78, 0.9);
+}
+
+.source-goose, .source-microscope {
+  font-size: 50%;
+}
+
+.center {
+  text-align: center;
+}
