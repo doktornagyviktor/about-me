@@ -111,7 +111,7 @@ ul {
 }
 
 a {
-  color:rgb(77, 42, 4)
+  color:rgb(77, 42, 4);
 }
 
 .a-links {
@@ -124,7 +124,7 @@ a {
 }
 
 a:hover {
-  color:rgba(245, 249, 249, 0.9)
+  color:rgba(245, 249, 249, 0.9);
 }
 
 a:active {
